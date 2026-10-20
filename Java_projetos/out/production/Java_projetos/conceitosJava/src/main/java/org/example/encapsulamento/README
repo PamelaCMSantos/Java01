@@ -1,0 +1,111 @@
+# Encapsulamento e Orientação a Objetos em Java
+
+Um exemplo prático e educativo que aborda o conceito de **Encapsulamento**, demonstrando a utilização de modificadores de acesso `private`, métodos **Getters e Setters**, **Construtores** e a palavra-chave **`this`**.
+
+---
+
+## 🚀 O que este projeto ensina
+
+* **Encapsulamento e Ocultação de Dados:** Uso do modificador `private` para proteger os atributos da classe contra modificações diretas descontroladas.
+* **Métodos Acessores e Modificadores:**
+* `get` / `set`: Padrão para leitura e alteração de atributos privados.
+* Convenção `isAtivo()` para verificação de atributos booleanos.
+
+
+* **Validação de Dados:** Aplicação de regras de negócio dentro dos métodos *setter* (como impedir idades negativas).
+* **Uso da palavra-chave `this`:** Resolução de ambiguidade entre atributos da instância e parâmetros locais dos métodos.
+* **Instanciação de Objetos e Construtores:**
+* Instanciação com construtor padrão e atribuição via *setters* (`Pessoa`).
+* Instanciação com construtor personalizado recebendo parâmetros (`Pessoa2`).
+
+
+* **Interatividade:** Integração com `Scanner` para preenchimento dinâmico dos atributos do objeto via terminal.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Linguagem:** Java (JDK 8 ou superior)
+* **Entrada de Dados:** `java.util.Scanner`
+
+---
+
+## 📁 Estrutura de Pacotes
+
+```text
+src/
+└── main/
+    └── java/
+        └── org/
+            └── example/
+                └── encapsulamento/
+                    ├── Main.java
+                    ├── Pessoa.java
+                    └── Pessoa2.java
+
+```
+
+---
+
+## ⚙️ Descrição das Classes
+
+| Classe | Descrição |
+| --- | --- |
+| **`Pessoa`** | Demonstra o encapsulamento básico com atributos privados, construtor padrão, validação de idade no `setIdade()` e uso de Getters/Setters. |
+| **`Pessoa2`** | Expande o modelo com atributo booleano `ativo` (usando `isAtivo()`) e inicialização direta via construtor com parâmetros. |
+| **`Main`** | Executa a aplicação, demonstrando as duas abordagens de criação e manipulação dos objetos `Pessoa` e `Pessoa2`. |
+
+---
+
+## 💻 Como Executar
+
+1. **Clone o repositório:**
+```bash
+git clone <URL_DO_SEU_REPOSITORIO>
+
+```
+
+
+2. **Navegue até o diretório do projeto:**
+```bash
+cd <NOME_DO_DIRETORIO>
+
+```
+
+
+3. **Compile todas as classes Java do pacote:**
+```bash
+javac src/main/java/org/example/encapsulamento/*.java
+
+```
+
+
+4. **Execute a aplicação:**
+```bash
+java -cp src/main/java org.example.encapsulamento.Main
+
+```
+
+
+
+---
+
+## 📌 Exemplo de Saída no Terminal
+
+```text
+Nome: Maria
+Idade: 40
+Digite a idade: 
+25
+Digite o nome: 
+João Silva
+Usuário ativo? (true/false) 
+true
+
+Acesso liberado para o usuário João Silva
+Idade: 25
+Status atualizado: false
+
+```
+
+---
