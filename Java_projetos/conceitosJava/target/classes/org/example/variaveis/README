@@ -1,0 +1,118 @@
+# Conceitos de Variáveis em Java
+
+Um guia prático e didático sobre a declaração, atribuição, modificação e exibição de **Tipos Primitivos** e **Tipos de Referência** em Java.
+
+---
+
+## 🚀 O que este código ensina
+
+* **Tipos Primitivos:** Exemplos práticos de inteiros (`byte`, `short`, `int`, `long`), decimais (`float`, `double`), lógicos (`boolean`) e caracteres (`char`).
+* **Tipos Referenciados:** Declaração e uso da classe `String` e de **Arrays (Vetores)** de inteiros e texto.
+* **Atribuição e Reatribuição:**
+* Atribuição após declaração.
+* Atribuição direta na inicialização.
+* Modificação de valores usando operações aritméticas entre variáveis.
+
+
+* **Manipulação de Arrays:**
+* Inicialização em bloco com `new int[]{...}`.
+* Atribuição direta por índice (`letras2[0] = 'a'`).
+* Formatação visual usando `Arrays.toString()`.
+* Iteração sobre elementos com o laço **Enhanced For (for-each)**.
+
+
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Linguagem:** Java (JDK 8 ou superior)
+* **Biblioteca Padrão:** `java.util.Arrays`
+
+---
+
+## 📁 Estrutura de Pacotes
+
+```text
+src/
+└── main/
+    └── java/
+        └── org/
+            └── example/
+                └── variaveis/
+                    └── Variaveis.java
+
+```
+
+---
+
+## 💻 Como Executar
+
+1. **Clone o repositório:**
+```bash
+git clone <URL_DO_SEU_REPOSITORIO>
+
+```
+
+
+2. **Navegue até o diretório do projeto:**
+```bash
+cd <NOME_DO_DIRETORIO>
+
+```
+
+
+3. **Compile a classe Java:**
+```bash
+javac src/main/java/org/example/variaveis/Variaveis.java
+
+```
+
+
+4. **Execute a aplicação:**
+```bash
+java -cp src/main/java org.example.variaveis.Variaveis
+
+```
+
+
+
+---
+
+## 📌 Saída do Programa (Exemplo)
+
+```text
+valor = 1
+salario = 2000.0
+escolha = false
+letra = a
+nome = Maria
+******************************************************
+Veja que apenas a variável valor modificou: 
+valor = 2
+salario = 2000.0
+escolha = false
+letra = a
+nome = Maria
+******************************************************
+Veja que agora, todas as variáveis foram modificadas: 
+valor = 2
+salario = 798.0
+escolha = true
+letra = b
+nome = Maria da Paz
+******************************************************
+Arrays: 
+numeros : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+cidades : [Castanhal, Belém]
+******************************************************
+A outra forma de atribuição 
+CPF = 20234567
+Imprimindo letras2: 
+Número: 1
+Número: 2
+...
+
+```
+
+---
