@@ -1,0 +1,110 @@
+# Operadores em Java
+
+Um guia prático sobre a utilização de **Operadores Aritméticos, Atribuição Composta, Incremento/Decremento, Relacionais e Lógicos** em Java, incluindo um exemplo de comparação correta entre `String`s.
+
+---
+
+## 🚀 O que este código ensina
+
+* **Operadores Aritméticos:** Operações matemáticas básicas — Soma (`+`), Subtração (`-`), Divisão (`/`), Multiplicação (`*`) e Módulo/Resto da divisão (`%`).
+* **Operadores de Atribuição Composta:** Atribuição simplificada (`+=`, `-=`, `*=`, `/=`) que aplica a operação diretamente sobre o valor da própria variável.
+* **Incremento e Decremento:** Alteração unitária de valores usando `++` e `--`.
+* **Operadores Relacionais:** Comparações que retornam valores booleanos (`true` ou `false`): igualdade (`==`), diferença (`!=`), maior/menor (`>`, `<`) e maior/menor ou igual (`>=`, `<=`).
+* **Operadores Lógicos e Estruturas Condicionais:** Combinação de condições lógicas usando E (`&&`), OU (`||`) e Negação (`!`) dentro de blocos `if / else if`.
+* **Comparação de Strings:** Demonstração do método `.equals()` para comparar o conteúdo de objetos `String` com segurança em Java.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Linguagem:** Java (JDK 8 ou superior)
+
+---
+
+## 📁 Estrutura de Pacotes
+
+```text
+src/
+└── main/
+    └── java/
+        └── org/
+            └── example/
+                └── operadores/
+                    └── Operadores.java
+
+```
+
+---
+
+## 💻 Como Executar
+
+1. **Clone o repositório:**
+```bash
+git clone <URL_DO_SEU_REPOSITORIO>
+
+```
+
+
+2. **Navegue até o diretório do projeto:**
+```bash
+cd <NOME_DO_DIRETORIO>
+
+```
+
+
+3. **Compile a classe Java:**
+```bash
+javac src/main/java/org/example/operadores/Operadores.java
+
+```
+
+
+4. **Execute a aplicação:**
+```bash
+java -cp src/main/java org.example.operadores.Operadores
+
+```
+
+
+
+---
+
+## 📌 Saída do Programa (Exemplo)
+
+```text
+Operadores aritméticos: 
+Soma = 23
+Subtração = 17
+Divisão = 6
+Multiplicação = 60
+Modulo = 2
+ 
+Utilizando o print para a operação: 
+80
+******************************************************
+Operadores de Atribuição: 
+Operador += :
+20
+Operador -= :
+15
+Operador *= :
+75
+Operador /= :
+15
+ 
+************************************
+Incremento: 10
+Incremento: 11
+Incremento: 10
+false
+true
+false
+true
+false
+true
+*********************************
+Pode tirar carteira
+
+```
+
+---
