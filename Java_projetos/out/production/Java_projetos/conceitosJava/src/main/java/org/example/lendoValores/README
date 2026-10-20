@@ -1,0 +1,98 @@
+# Entrada de Dados com Scanner em Java
+
+Um guia prático sobre como ler dados do teclado via terminal utilizando a classe `java.util.Scanner`, abordando diferentes tipos de dados e o tratamento correto do **buffer de memória**.
+
+---
+
+## 🚀 O que este código ensina
+
+* **Instanciação do Scanner:** Criação e abertura do fluxo de entrada padrão do sistema (`System.in`).
+* **Leitura de Diversos Tipos de Dados:**
+* `sc.next()` para ler uma palavra simples (até o primeiro espaço).
+* `sc.nextLine()` para ler uma linha de texto completa/frases.
+* `sc.nextInt()` para números inteiros.
+* `sc.nextDouble()` e `sc.nextFloat()` para números decimais.
+* `sc.nextBoolean()` para valores lógicos (`true` ou `false`).
+
+
+* **Limpeza de Buffer (`sc.nextLine()` extra):** Demonstração prática do problema de quebra de linha (`\n`) deixada no buffer por métodos como `nextInt()` e como consumi-la para evitar o "salto" na leitura de textos.
+* **Fechamento de Recursos:** Encerramento do `Scanner` com `sc.close()` para evitar vazamento de memória (*resource leak*).
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Linguagem:** Java (JDK 8 ou superior)
+* **Biblioteca Padrão:** `java.util.Scanner`
+
+---
+
+## 📁 Estrutura de Pacotes
+
+```text
+src/
+└── main/
+    └── java/
+        └── org/
+            └── example/
+                └── lendoValores/
+                    └── LendoValores.java
+
+```
+
+---
+
+## 💻 Como Executar
+
+1. **Clone o repositório:**
+```bash
+git clone <URL_DO_SEU_REPOSITORIO>
+
+```
+
+
+2. **Navegue até o diretório do projeto:**
+```bash
+cd <NOME_DO_DIRETORIO>
+
+```
+
+
+3. **Compile a classe Java:**
+```bash
+javac src/main/java/org/example/lendoValores/LendoValores.java
+
+```
+
+
+4. **Execute a aplicação:**
+```bash
+java -cp src/main/java org.example.lendoValores.LendoValores
+
+```
+
+
+
+---
+
+## 📌 Exemplo de Uso no Terminal
+
+```text
+Digite uma palavra ou letra: Java
+Digite uma frase: Aprendendo entrada de dados
+Digite um número inteiro: (0) 42
+Digite um número Double: (0,0) 1500,50
+Digite um número do tipo Decimal: (0,0) 3,14
+Digite o valor da variável booleana: (false/true) true
+
+--- Dados Cadastrados ---
+Palavra: Java
+Frase: Aprendendo entrada de dados
+Numero inteiro: 42
+Numero Double: 1500.5
+Numero Float: 3.14
+Valor do tipo Booleano: true
+
+```
+
+---
