@@ -1,0 +1,91 @@
+# Calculadora Básica com Menu em Java
+
+Uma aplicação de console em Java que realiza operações matemáticas com números inteiros através de um menu interativo de opções.
+
+---
+
+## 🚀 Funcionalidades
+
+* **Operações com Inteiros:** Soma, Subtração, Multiplicação, Divisão e Cálculo de Resto da Divisão (`%`).
+* **Menu Interativo:** Exibe um menu de opções numeradas para facilitar a escolha da operação.
+* **Múltiplas Operações:** Permite reutilizar os mesmos dois números informados em diferentes operações até selecionar a opção de sair (`6`).
+* **Validação de Segurança:** Trata a divisão por zero ao calcular o resto da divisão.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Linguagem:** Java (JDK 8 ou superior)
+* **Entrada de Dados:** `java.util.Scanner`
+
+---
+
+## 📁 Estrutura de Pacotes
+
+```text
+src/
+└── main/
+    └── java/
+        └── calculadorabasica/
+            └── CalculadoraBasica.java
+
+```
+
+---
+
+## 💻 Como Executar
+
+1. **Clone o repositório:**
+```bash
+git clone <URL_DO_SEU_REPOSITORIO>
+
+```
+
+
+2. **Navegue até o diretório do projeto:**
+```bash
+cd <NOME_DO_DIRETORIO>
+
+```
+
+
+3. **Compile o arquivo Java:**
+```bash
+javac src/main/java/calculadorabasica/CalculadoraBasica.java
+
+```
+
+
+4. **Execute a aplicação:**
+```bash
+java -cp src/main/java calculadorabasica.CalculadoraBasica
+
+```
+
+
+
+---
+
+## 📌 Exemplo de Uso
+
+```text
+Qual o primeiro número? 
+10
+Qual o segundo número? 
+3
+O que deseja fazer? 
++++++++++++++++++++++++++++
+          MENU         
+1- Somar 
+2- Subtrair 
+3- Dividir 
+4- Multiplicar 
+5- Resto da divisão 
+6- Sair 
++++++++++++++++++++++++++++
+5
+O resto da divisão de 10 por 3 é: 1
+
+```
+
+---
