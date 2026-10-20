@@ -1,0 +1,83 @@
+# Segundo modelo de calculadora em Java
+
+Está é uma aplicação simples e que roda diretamente no terminal, desenvolvida em Java para realizar operações matemáticas básicas.
+
+---
+
+## 🚀 Funcionalidades
+
+* **Operações Básicas:** Soma (`+`), Subtração (`-`), Multiplicação (`*`) e Divisão (`/`).
+* **Suporte a Decimais:** Permite cálculos com números de ponto flutuante.
+* **Execução Contínua:** Permite realizar múltiplos cálculos em sequência sem precisar reiniciar o programa.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Linguagem:** Java (JDK 8 ou superior)
+* **Entrada de Dados:** `java.util.Scanner`
+
+---
+
+## 📁 Estrutura de Pacotes
+
+```text
+src/
+└── main/
+    └── java/
+        └── calculadora/
+            └── CalculadoraApp.java
+
+```
+
+---
+
+## 💻 Como Executar
+
+1. **Clone o repositório:**
+```bash
+git clone <URL_DO_SEU_REPOSITORIO>
+
+```
+
+
+2. **Navegue até o diretório raiz do projeto:**
+```bash
+cd <NOME_DO_DIRETORIO>
+
+```
+
+
+3. **Compile o arquivo Java:**
+```bash
+javac src/main/java/calculadora/CalculadoraApp.java
+
+```
+
+
+4. **Execute a aplicação:**
+```bash
+java -cp src/main/java calculadora.CalculadoraApp
+
+```
+
+
+
+---
+
+## 📌 Exemplo de Uso
+
+```text
+Digite o primeiro valor: 
+10,5
+Qual a operação? (+, -, / ou *)
+*
+Digite o segundo valor: 
+2
+Resultado: 21.0
+Deseja realizar uma nova operação? (S/N)
+N
+
+```
+
+---
